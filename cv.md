@@ -2,7 +2,7 @@
 
 # Pavel Tkachuk
 
-## Contacts 
+## My Contacts 
 * **E-mail:** baroncomp88@gmail.com
 * **Telegram:** @Wakieq
 * **GitHub:** [WakieW](https://github.com/WakieW)
@@ -22,3 +22,13 @@
   }
 }
 ```
+## Skills
+  * HTML
+  * CSS3
+  * JavaScript Basics
+  
+## Work Experience
+I don't have any experience now
+## English Level
+B2 Upper Intermediate
+[EF SET Certificate](https://www.efset.org/cert/L6UNHx)
