@@ -1,9 +1,28 @@
+body {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100vh;
+}
 header {
+  display: flex;
   background-color: lightblue;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
 }
 main {
   background-color: lightgreen;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
 }
 footer {
   background-color: lightcoral;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
 }
