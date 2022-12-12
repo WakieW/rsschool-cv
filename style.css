@@ -1,28 +1,55 @@
+p {
+  font-family: Arial;
+}
 body {
-  margin: 0 auto;
-  width: 1200px;
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.header-container {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0, 162, 255, .3);  
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.page-container {
   display: grid;
-  grid-template-rows: 100px 1fr 100px;
-  height: 100vh;
+  margin-left: 70px;
+  margin-right: 70px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
 }
-header {
-  display: flex;
-  background-color: lightblue;
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
+.container-profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
 }
-main {
-  background-color: lightgreen;
-  display: flex;
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
+.profile {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto;
 }
-footer {
-  background-color: lightcoral;
+.name {
+  align-self: flex-end;
+}
+.name-text {
+  font-family: Arial;
+  font-weight: 200;
+  font-size: 60px;
+  margin: 0;
+}
+.profile-picture {
   display: flex;
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
+  justify-content: start;
+  
+}
+.thumbnail {
+  width: 580px;
+}
+.prof-text {
+  margin: 0;
 }
