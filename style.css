@@ -1,5 +1,6 @@
 p {
   font-family: Arial;
+  margin: 0;
 }
 body {
   height: 100%;
@@ -11,7 +12,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(0, 162, 255, .3);  
+  border-bottom: 1px solid rgb(0, 162, 255, .7);  
   margin-right: 70px;
   margin-left: 70px;
 }
@@ -27,7 +28,7 @@ body {
 .container-profile {
   display: grid;
   grid-template-columns: 43% 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 580px;
 }
 .profile {
   display: grid;
@@ -49,7 +50,9 @@ body {
   
 }
 .thumbnail {
-  width: 580px;
+  width: 400px;
+  object-fit: contain;
+  align-self: flex-end;
 }
 .prof-text {
   margin: 0;
@@ -61,12 +64,25 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
   font-weight: light;
-  line-height: 25px;
-  word-spacing: 4px;
+  line-height: 30px;
+  word-spacing: 3px;
   
 }
   .container-skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+  }
+  .space-between {
+    height: 100px;
+  }
+  .line {
     
+    border: 1px solid rgb(0, 162, 255, .6);
+  }
+  .heading {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(0, 162, 255);
   }
