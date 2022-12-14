@@ -1,20 +1,19 @@
 p {
-  font-family: Arial;
+  
   margin: 0;
 }
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial;
+  
 }
 .header-container {
   height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(0, 162, 255, .7);  
-  margin-right: 70px;
-  margin-left: 70px;
+  border-bottom: 1px solid rgb(108,94,81);  
+
 }
 .page-container {
   display: grid;
@@ -36,10 +35,10 @@ body {
   grid-template-columns: auto;
 }
 .name {
-  align-self: flex-end;
+  align-self: center;
 }
 .name-text {
-  font-family: Arial;
+  font-family: Cinzel;
   font-weight: 200;
   font-size: 60px;
   margin: 0;
@@ -50,39 +49,69 @@ body {
   
 }
 .thumbnail {
-  width: 400px;
+  max-width: 50%;
   object-fit: contain;
   align-self: flex-end;
 }
 .prof-text {
   margin: 0;
+  font-family: Cinzel;
 }
 .info {
-  align-self: flex-end;
+  align-self: center;
 }
 .profile-info {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   font-weight: light;
   line-height: 30px;
   word-spacing: 3px;
   
 }
-  .container-skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
+.container-skills {
+  display: grid;
   }
-  .space-between {
-    height: 100px;
+.space-between {
+    height: 145px;
   }
-  .line {
-    
-    border: 1px solid rgb(0, 162, 255, .6);
+.line {
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 3px;
+  border-style: solid;
+  border-color: rgb(108,94,81);
   }
-  .heading {
-    font-family: helvetica;
-    font-weight: bold;
-    font-size: 16px;
-    color: rgb(0, 162, 255);
+.heading {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 16px;
+   color: rgb(78, 70, 62);
   }
+.list-name {
+  
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.list {
+  line-height: 40px;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
+  margin-left: 3px;
+}
+.code-example {
+  margin-top: 25px;
+  font-size: 18px;
+  overflow: auto;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+.container-education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+  
