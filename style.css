@@ -252,3 +252,14 @@ html {
   font-size: 30px;
   font-weight: 700;
 }
+@media screen and (max-width: 640px) {
+  .header-container {
+    font-size: 12px;
+  }
+  .resume-name {
+    margin-left: 25px;
+  }
+  .nav-li {
+    padding: 5px;
+  }
+}
