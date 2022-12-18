@@ -1,11 +1,21 @@
+a {
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
 p {
   
   margin: 0;
+  margin-left: 5px;
 }
 body {
   height: 100%;
   margin: 0;
   
+}
+html {
+  scroll-behavior: smooth;
 }
 .header-container {
   height: 55px;
@@ -13,7 +23,41 @@ body {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid rgb(108,94,81);  
+  
+}
+.resume-name {
+  margin-left: 65px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.main-section  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55px;
+}
+.header-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
 
+.header-li {
+  float: left;
+  
+}
+.nav-li {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.nav-li:hover {
+  color: rgb(90, 35, 1);
 }
 .page-container {
   display: grid;
@@ -26,7 +70,7 @@ body {
 }
 .container-profile {
   display: grid;
-  grid-template-columns: 43% 1fr;
+  grid-template-columns: 40% 1fr;
   grid-template-rows: 580px;
 }
 .profile {
@@ -81,13 +125,16 @@ body {
   border-bottom: 3px;
   border-style: solid;
   border-color: rgb(108,94,81);
+  border-radius: 1000px;
   }
 .heading {
   font-family: helvetica;
   font-weight: bold;
   font-size: 16px;
-   color: rgb(78, 70, 62);
+  color: rgb(78, 70, 62);
+  margin-left: 5px;
   }
+  
 .list-name {
   
   margin-top: 30px;
@@ -100,7 +147,7 @@ body {
   padding-top: 20px;
   padding-left: 20px;
   margin: 0;
-  margin-left: 3px;
+  margin-left: 9px;
 }
 .code-example {
   margin-top: 25px;
@@ -112,6 +159,96 @@ body {
 .container-education {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 55px;
+  grid-template-rows: auto;
+  row-gap: 50px;
+}
+.college {
+  font-size: 30px;
+  font-weight: 300;
+}
+.describe {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 0;
+}
+.date-container {
+  justify-self: flex-end;
+  align-self: center;
+}
+.date {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.project-link {
+  outline: none;
+  text-decoration: none;
+  transition: 1s;
+}
+.project-link:link {
+  color: #24130e;
+}
+.project-link:visited {
+  color: rgb(102, 57, 44)
   
 }
+.project-link:focus {
   
+  background: rgb(73, 61, 46, .1);
+}
+.project-link:hover {
+  
+  background: rgb(73, 61, 46, .4);
+}
+.project-link:active {
+  background: rgb(73, 61, 46, .1);
+}
+.container-contacts {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  row-gap: 25px;
+}
+.social-media {
+  margin-left: 5px;
+}
+.icons {
+  object-fit: cover;
+  width: 2%;
+  margin-right: 22px;
+}
+.footer-container {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgb(108, 94, 81);  
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.github-icon {
+  object-fit: cover;
+  width: 10%;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+.rsschool-icon {
+  object-fit: cover;
+  width: 20%;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.year {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
