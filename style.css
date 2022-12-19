@@ -11,8 +11,8 @@ p {
 }
 body {
   height: 100%;
-  margin: 0;
-  
+  margin: 0 auto; 
+  max-width: 1440px;
 }
 html {
   scroll-behavior: smooth;
