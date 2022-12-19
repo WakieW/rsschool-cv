@@ -1,0 +1,265 @@
+a {
+  outline: none;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+p {
+  
+  margin: 0;
+  margin-left: 5px;
+}
+body {
+  height: 100%;
+  margin: 0 auto; 
+  max-width: 1440px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header-container {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(108,94,81);  
+  
+}
+.resume-name {
+  margin-left: 65px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.main-section  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55px;
+}
+.header-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.header-li {
+  float: left;
+  
+}
+.nav-li {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.nav-li:hover {
+  color: rgb(90, 35, 1);
+}
+.page-container {
+  display: grid;
+  margin-left: 70px;
+  margin-right: 70px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  
+
+}
+.container-profile {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 580px;
+}
+.profile {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto;
+}
+.name {
+  align-self: center;
+}
+.name-text {
+  font-family: Cinzel;
+  font-weight: 200;
+  font-size: 60px;
+  margin: 0;
+}
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  
+}
+.thumbnail {
+  max-width: 50%;
+  object-fit: contain;
+  align-self: flex-end;
+}
+.prof-text {
+  margin: 0;
+  font-family: Cinzel;
+}
+.info {
+  align-self: center;
+}
+.profile-info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 30px;
+  word-spacing: 3px;
+  
+}
+.container-skills {
+  display: grid;
+  }
+.space-between {
+    height: 145px;
+  }
+.line {
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 3px;
+  border-style: solid;
+  border-color: rgb(108,94,81);
+  border-radius: 1000px;
+  }
+.heading {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(78, 70, 62);
+  margin-left: 5px;
+  }
+  
+.list-name {
+  
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.list {
+  line-height: 40px;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
+  margin-left: 9px;
+}
+.code-example {
+  margin-top: 25px;
+  font-size: 18px;
+  overflow: auto;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+.container-education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 55px;
+  grid-template-rows: auto;
+  row-gap: 50px;
+}
+.college {
+  font-size: 30px;
+  font-weight: 300;
+}
+.describe {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 0;
+}
+.date-container {
+  justify-self: flex-end;
+  align-self: center;
+}
+.date {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.project-link {
+  outline: none;
+  text-decoration: none;
+  transition: 1s;
+}
+.project-link:link {
+  color: #24130e;
+}
+.project-link:visited {
+  color: rgb(102, 57, 44)
+  
+}
+.project-link:focus {
+  
+  background: rgb(73, 61, 46, .1);
+}
+.project-link:hover {
+  
+  background: rgb(73, 61, 46, .4);
+}
+.project-link:active {
+  background: rgb(73, 61, 46, .1);
+}
+.container-contacts {
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  row-gap: 25px;
+}
+.social-media {
+  margin-left: 5px;
+}
+.icons {
+  object-fit: cover;
+  width: 2%;
+  margin-right: 22px;
+}
+.footer-container {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgb(108, 94, 81);  
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.github-icon {
+  object-fit: cover;
+  width: 10%;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+.rsschool-icon {
+  object-fit: cover;
+  width: 20%;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.year {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 640px) {
+  .header-container {
+    font-size: 12px;
+  }
+  .resume-name {
+    margin-left: 25px;
+  }
+  .nav-li {
+    padding: 5px;
+  }
+}

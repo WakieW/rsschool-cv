@@ -1,1 +1,1 @@
-# rsschool-cv
+https://WakieW.github.io/rsschool-cv/
